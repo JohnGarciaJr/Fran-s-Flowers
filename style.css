@@ -1,0 +1,58 @@
+body {
+    color: #fcfcfc;
+    background-color: #ce0030;
+    font-family: "Ariel", "sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+    /*For better readability, I increased the font size and font weight bold*/
+}
+/*#00ffea and #ce0030 have a 4.5:1 ratio - AAA with bold text
+#ffffff and #ce0030 have a 5.7:1 ratio - AAA with bold text*/
+header {
+  color: #00ffea;
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #00ffea;
+    color:#00ffea;
+    text-align: center;
+}
+hr:after {
+    content: "❀";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background:#ce0030;
+}
+/*Cenetered the h2s for some uniformity*/
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 3px;
+  text-align: center;
+}
+/*Here I wanted to increase the px size just a hair to stand out a little more.*/
+#donation {
+  color: #00ffea;
+  font-size: 22px;
+}
+/*Here I felt that the New Price need some emphasis, and to keep high color contrast consistant throughout the page*/
+h4 {
+  color: #00ffea;
+  font-size: 24px;
+}
+
+h5 {
+  text-decoration: line-through;
+}
+/*Increase size instead of bold since all text is bold now and gave a highlight color*/
+address {
+  font-size: 24px;
+  color: #00ffea;
+}
